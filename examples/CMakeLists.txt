@@ -114,3 +114,4 @@ endif (GFLAGS)
 
 add_subdirectory(sampled_function)
 add_subdirectory(slam)
+add_subdirectory(bundle_adjustment)

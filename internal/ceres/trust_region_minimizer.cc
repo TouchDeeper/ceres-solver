@@ -261,7 +261,7 @@ bool TrustRegionMinimizer::EvaluateGradientAndJacobian(
     // jacobian = jacobian * diag(J'J) ^{-1}
     jacobian_->ScaleColumns(jacobian_scaling_.data());
   }
-
+  //TODO what the theory of Plus
   // The gradient exists in the local tangent space. To account for
   // the bounds constraints correctly, instead of just computing the
   // norm of the gradient vector, we compute

@@ -22,3 +22,7 @@ obj/
 jni/libs/
 .buildinfo
 bazel-*
+
+*cmake-build-*
+*.idea
+**build**
